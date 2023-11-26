@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+
+
+.navbar-bottomline{
+  box-shadow: 1px 3px 3px #e7e7e7;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar{
+  height: 57px;
+  width: 1750px;
+  min-width: 1750px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-leftside{
+  display: flex;
+  align-items: center;
+}
+
+.navbar-rightside{
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+.logocontainer{
+height: 40px;
+}
+
+
+.container-bookmark{
+  width: 50px;
+  cursor: pointer;
+}
+
+.container-search{
+  width: 50px;
+  cursor: pointer;
+}
+
+.container-bell{
+  width: 50px;
+  cursor: pointer;
+}
+
+.fa-magnifying-glass {
+  font-size: 20px;
+}
+
+.fa-solid{
+  font-weight: 900;
+}
+
+.bookmark-navbar {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.fa-regular, .far {
+  font-weight: 400;
+}
+
+.bell {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button-navbar {
+  width: 170px;
+  height: 33px;
+  margin-right: 20px;
+  border-radius: 30px;
+  background-color: white;
+  border: 1px solid #242424;
+  cursor: pointer;
+}
+
+.user-logo {
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.maincontent{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+  
+   
+    
+}
+
+
+
+
+#price{
+  color: black;
+}
+
+
+
+
+.descri{
+  
+  overflow: scroll;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Numero di righe desiderato */
+  -webkit-box-orient: vertical;
+  color: #242424;
+  width: 400px;
+  height: 200px;
+}
+
+.hidden {
+  visibility: hidden; /* Classe CSS per nascondere le immagini */
+}
+
+img{
+  max-height: 200px;
+
+}
+
+td{
+  padding: 10px 20px;
+}
+
+
